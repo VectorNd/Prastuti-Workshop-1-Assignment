@@ -16,9 +16,9 @@ Here's an assignment you can give to your workshop participants based on the Iri
  - Train a logistic regression model to classify the iris species based on the four features.
  - Train an artificial neural network (ANN) with one hidden layer to classify the iris species.
  - Write a brief report summarizing your findings and conclusions from the analysis of the Iris dataset.
- - Note: You can use any programming language and machine learning library of your choice to complete this assignment.
+ - Note: You need to use pytorch library of python for completing your assignment.
 
-The iris dataset has been provided in this github 
+
 
 
 ## What is Google Colab?
@@ -106,5 +106,7 @@ iris_df.plot(kind='scatter', x='sepal_length', y='sepal_width')
 Note: These are just a few examples of the many functions available in pandas. For more information, see the pandas documentation at https://pandas.pydata.org/docs/.
 
 
+You need to do your assignment using pytorch 
 
+Here are some basic tutorials for pytorch https://www.youtube.com/playlist?list=PLqnslRFeH2UrcDBWF5mfPGpqQDSta6VK4
 
