@@ -77,25 +77,32 @@ This will display the first 5 rows of the dataset, including the column headers.
 Once the Iris dataset is loaded into a pandas DataFrame, you can use a variety of functions to manipulate and analyze the data. Here are a few examples:
 
 Select specific columns:
-python
-Copy code
+```python
 # select the sepal length and petal width columns
 sepal_petal_df = iris_df[['sepal_length', 'petal_width']]
+```
+
 Filter rows based on a condition:
-python
-Copy code
+
+```python
 # filter the rows where the species is setosa
 setosa_df = iris_df[iris_df['species'] == 'setosa']
+```
+
 Group the data by a column and compute summary statistics:
-python
-Copy code
+
+```python
 # group the data by species and compute the mean values for each column
 species_mean_df = iris_df.groupby('species').mean()
+```
+
 Visualize the data using pandas plotting functions:
-python
-Copy code
+
+```python
 # create a scatter plot of sepal length vs. sepal width
 iris_df.plot(kind='scatter', x='sepal_length', y='sepal_width')
+```
+
 Note: These are just a few examples of the many functions available in pandas. For more information, see the pandas documentation at https://pandas.pydata.org/docs/.
 
 
